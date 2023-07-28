@@ -50,20 +50,20 @@ class LoginForm extends Component {
     return (
       <div className="background">
         <img
+          src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
+          className="logo-sm-img"
+          alt="website logo"
+        />
+        <img
           src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-login-img.png"
-          className="login-bg-img"
+          className="login-img"
           alt="website login"
         />
         <form className="form-container" onSubmit={this.login}>
           <img
             src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
-            className="logo-img"
+            className="logo-bg-img"
             alt="website logo"
-          />
-          <img
-            src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-login-img.png"
-            className="login-sm-img"
-            alt="website login"
           />
           <label htmlFor="username" className="label">
             USERNAME
